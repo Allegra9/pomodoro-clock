@@ -1,10 +1,9 @@
-
 body {
   background-color: #fffed1 !important;
 }
 
 #title1 {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   margin-top: 50px;
   font-size: 4em;
 }
@@ -35,14 +34,14 @@ body {
   margin-right: auto;
 }
 
-#num, 
+#num,
 #breakNum {
   display: inline;
   margin: 10px;
 }
 
 #minusMins,
-#plusMins, 
+#plusMins,
 #minusBreak,
 #plusBreak {
   margin-bottom: 10px;
@@ -110,79 +109,95 @@ a:visited {
   color: #fff;
 }
 
-@media (min-device-width : 320px) and (max-device-width : 768px)  { 
-
+@media (min-device-width: 560px) and (max-device-width: 768px) {
   #title1 {
-  margin-top: 80px;
-  font-size: 8em;
+    margin-top: 50px;
+    font-size: 6em;
   }
 
   .session-time {
-  padding: 50px;
-  width: 100%;
+    padding: 50px;
+    width: 80%;
   }
 
   .session-time h2 {
-    font-size: 5em;
+    font-size: 3em;
   }
 
   .session-time p,
   .session-time a {
-    font-size: 3em;
+    font-size: 1.5em;
   }
 
- .action-buttons {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 20px;
-  margin-top: 10px;
+  .action-buttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
   }
 
   .action-buttons a {
-    font-size: 3em;
-    padding: 40px 200px;
-    margin-bottom: 20px;
+    font-size: 2em;
+    padding: 20px 50px;
   }
 
-  #start,
-  #stop,
-  #reset {
-  display: block;
-  margin-right: 20px;
-  }
-
- .break-time {
-  padding: 50px;
-  width: 100%;
+  .break-time {
+    padding: 50px;
+    width: 80%;
   }
 
   .break-time h2 {
-    font-size: 5em;
+    font-size: 3em;
   }
 
   .break-time p,
   .break-time a {
-    font-size: 3em;
+    font-size: 1.5em;
   }
 
-  #num, 
+  #num,
   #breakNum {
-  margin: 30px;
+    margin: 30px;
   }
 
- .btn {
-  width: 20%;
-  height: 20%;
+  .btn {
+    width: 20%;
+    height: 20%;
   }
 
   img {
-  width: 60%;
+    width: 50%;
   }
 
   #footer p {
-  font-size: 3em;
+    font-size: 1.5em;
+  }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 559px) {
+  #title1 {
+    font-size: 3em;
   }
 
+  img {
+    width: 60%;
+    margin-top: 40px;
+  }
+
+  .action-buttons {
+    padding-bottom: 30px;
+    margin: 0;
+  }
+
+  .action-buttons a {
+    padding: 10px 20px;
+    margin: 0;
+  }
+
+  #start,
+  #stop {
+    display: inline;
+    margin-right: 0;
+  }
 }
 
 
