@@ -22,7 +22,7 @@ $(document).ready(function() {
     count *= 60; //convert secs to mins
     $("#minusMins, #plusMins").hide();
     $("#start").hide();
-    $("p").fadeOut("slow");
+    $(".text-under").fadeOut("slow");
 
     function timer() {
       count -= 1;

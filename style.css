@@ -1,27 +1,43 @@
 
+body {
+  background-color: #fffed1 !important;
+}
+
+#title1 {
+  font-family: 'Allura', cursive;
+  margin-top: 50px;
+  font-size: 4em;
+}
+
 .session-time {
-  border: 2px #000 solid;
-  margin: 10px 300px;
+  border-radius: 20px;
   padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff !important;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .action-buttons {
-  margin: 10px 300px;
   padding: 10px;
+  margin: 20px;
+  margin-top: 10px;
 }
 
 .break-time {
-  border: 2px #000 solid;
-  margin: 10px 300px;
+  border-radius: 20px;
   padding: 10px;
+  background-color: #fff !important;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h2 {
-  display: inline;
-}
-
-#num,
+#num, 
 #breakNum {
+  display: inline;
   margin: 10px;
 }
 
@@ -33,18 +49,37 @@ h2 {
 }
 
 #start,
-#reset,
 #stop {
   display: inline;
   margin-right: 20px;
 }
 
-.action-buttons {
-  margin-top: 10px;
+img {
+  width: 40%;
+  margin-top: 70px;
 }
 
-#start {
-  margin-top: 10px;
+#footer {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#footer p {
+  margin: 0px;
+  text-decoration: none !important;
+  outline: none !important;
+  color: #000;
+}
+
+footer p a,
+footer p a:active,
+footer p a:visited {
+  color: green;
+}
+
+footer p a:hover {
+  color: #195b16;
+  margin-left: 10px;
 }
 
 a,
@@ -54,3 +89,26 @@ a:visited {
   text-decoration: none !important;
   outline: none !important;
 }
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff;
+}
+
+.btn-lg,
+.btn-lg:hover,
+.btn-lg:active,
+.btn-lg:visited {
+  text-decoration: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff;
+}
+
+
+
