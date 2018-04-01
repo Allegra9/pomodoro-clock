@@ -6,7 +6,6 @@
 }
 
 .action-buttons {
-/*   border: 2px red solid; */
   margin: 10px 300px;
   padding: 10px;
 }
@@ -17,12 +16,25 @@
   padding: 10px;
 }
 
-
 h2 {
   display: inline;
 }
 
-#start, #reset, #stop {
+#num,
+#breakNum {
+  margin: 10px;
+}
+
+#minusMins,
+#plusMins, 
+#minusBreak,
+#plusBreak {
+  margin-bottom: 10px;
+}
+
+#start,
+#reset,
+#stop {
   display: inline;
   margin-right: 20px;
 }
@@ -33,4 +45,12 @@ h2 {
 
 #start {
   margin-top: 10px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none !important;
+  outline: none !important;
 }
