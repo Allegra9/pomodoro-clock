@@ -110,5 +110,80 @@ a:visited {
   color: #fff;
 }
 
+@media (min-device-width : 320px) and (max-device-width : 768px)  { 
+
+  #title1 {
+  margin-top: 80px;
+  font-size: 8em;
+  }
+
+  .session-time {
+  padding: 50px;
+  width: 100%;
+  }
+
+  .session-time h2 {
+    font-size: 5em;
+  }
+
+  .session-time p,
+  .session-time a {
+    font-size: 3em;
+  }
+
+ .action-buttons {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 20px;
+  margin-top: 10px;
+  }
+
+  .action-buttons a {
+    font-size: 3em;
+    padding: 40px 200px;
+    margin-bottom: 20px;
+  }
+
+  #start,
+  #stop,
+  #reset {
+  display: block;
+  margin-right: 20px;
+  }
+
+ .break-time {
+  padding: 50px;
+  width: 100%;
+  }
+
+  .break-time h2 {
+    font-size: 5em;
+  }
+
+  .break-time p,
+  .break-time a {
+    font-size: 3em;
+  }
+
+  #num, 
+  #breakNum {
+  margin: 30px;
+  }
+
+ .btn {
+  width: 20%;
+  height: 20%;
+  }
+
+  img {
+  width: 60%;
+  }
+
+  #footer p {
+  font-size: 3em;
+  }
+
+}
+
 
 
